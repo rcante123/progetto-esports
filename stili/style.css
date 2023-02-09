@@ -17,7 +17,7 @@
 
 a{text-decoration: none; color: black;} 
 
-.esports{
+.campionati{
     text-align: left;
     font-size: 40px;
     padding: 20px;
@@ -25,7 +25,7 @@ a{text-decoration: none; color: black;}
     padding-right: 40px;
 }
 
-.lol{
+.camp{
     font-size: 15px;
     text-align: center;
     width: 200px;
