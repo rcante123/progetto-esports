@@ -8,6 +8,7 @@ a{text-decoration: none; color: black;}
     background-color: rgb(100, 0, 0);
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #logo1{
@@ -23,7 +24,7 @@ a{text-decoration: none; color: black;}
     color: white;
     text-align: center;
     padding-top: 40px;
-    margin: 0 auto;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
@@ -65,3 +66,8 @@ header ul:hover ul{display: block;}
 header ul ul li a{color: white; font-size: 15px;}
 
 header ul ul li:hover a{color: red;}
+
+@media (max-width: 960px) {
+    .ctendine{display: none ;}
+    .container-header{justify-content: left;}
+}
