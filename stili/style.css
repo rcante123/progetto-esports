@@ -1,11 +1,6 @@
-*{
-    box-sizing: border-box;
-}
+*{box-sizing: border-box;}
 
-a{
-    text-decoration: none; 
-    color: black;
-}
+a{text-decoration: none; color: black;}
 
 .container-header{
     max-width: 100%;
@@ -41,18 +36,14 @@ a{
     padding-left: 40px;
 }
 
-header ul{
-    list-style: none; 
-    position: relative; 
-    bottom: 15px;
-}
+header ul{list-style: none; position: relative; bottom: 15px;}
 
 header ul ul{
     display: none;
     top: 10px;
     right: 75px;        
     padding-top: 20px;
-    width: 150px;
+    width: 125px;
 }
 
 header ul li a{
@@ -66,14 +57,11 @@ header ul li a{
     box-sizing: border-box;
     border-right: 2px solid black;
     border-left: 2px solid black;
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 header ul:hover ul{display: block;}
 
-header ul ul li a{
-    color: white
-    ; font-size: 15px;
-}
+header ul ul li a{color: white; font-size: 15px;}
 
 header ul ul li:hover a{color: red;}
